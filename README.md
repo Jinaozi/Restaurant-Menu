@@ -6,5 +6,5 @@ Welcome to the Tokyo Tokyo repository! This repository contains the menu of Toky
 
  # Instructions for Viewing Tokyo Tokyo
  You can access the live version of the Tokyo Tokyo at the following link:
- 
+ https://jinaozi.github.io/Restaurant-Menu/ 
  Feel free to explore the menu, enjoy the delicious offerings, and make your dining experience even better. Savor the flavors of Japan at Tokyo Tokyo!
