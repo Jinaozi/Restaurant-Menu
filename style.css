@@ -1,0 +1,140 @@
+@import url('https://fonts.google.com/specimen/Poppins')
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.menu-section {
+    margin-bottom: 40px;
+  }
+  
+  .menu-section h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+.heading{
+    background: #e82e1f;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.heading>h1{
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.heading>h3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+.food-items{
+    display: grid;
+    position: relative;
+    width: 380px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+}
+.food-items img{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+h1{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    text-align: right;
+}
+.details>p{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.details>button{
+    background: #a54312;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    cursor: pointer;
+}
+.details>button:hover{
+    background: #d32f2f;
+}
+footer {
+    background-color: #e82e1f; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer-content {
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+.footer-content p,
+.footer-content a {
+    margin: 5px 0; 
+}
+
+.footer-content a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline; 
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px; 
+}
