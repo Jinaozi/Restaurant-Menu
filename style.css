@@ -41,7 +41,7 @@ body{
 .heading>h3{
     font-weight: 600;
     font-size: 25px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     text-transform: uppercase;
 }
 .container {
