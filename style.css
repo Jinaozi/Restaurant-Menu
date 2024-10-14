@@ -17,7 +17,7 @@ body{
     margin-bottom: 40px;
   }
   
-  .menu-section h2 {
+  .menu-section>h2 {
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
